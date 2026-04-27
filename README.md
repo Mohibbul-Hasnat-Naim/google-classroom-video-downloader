@@ -356,10 +356,3 @@ This project is made for personal educational use only.
 Please respect copyright, platform policies, and course ownership.
 
 Use responsibly.
-
----
-
-# Author
-
-Mohibbul Hasnat Naim
-Bangladesh
