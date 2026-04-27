@@ -34,10 +34,11 @@ OUTPUT_FOLDER = os.path.join(os.getcwd(), "OUTPUT")
 # Create OUTPUT folder if missing
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-# Check INPUT folder exists
+# Create INPUT folder if missing
 if not os.path.exists(INPUT_FOLDER):
-    print("❌ INPUT folder not found!")
-    print("Please create an INPUT folder and place downloaded files inside.")
+    os.makedirs(INPUT_FOLDER)
+    print("📁 INPUT folder created.")
+    print("Please place downloaded files inside INPUT folder and run again.")
     sys.exit(1)
 
 TITLE = "Thev_Machine"  # Customize your title here
