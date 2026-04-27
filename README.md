@@ -207,13 +207,13 @@ Network Tab
 Search for:
 
 ```text id="k4xjsa"
-videoplayback
+video, audio
 ```
 
 You will usually find:
 
-* one audio link
-* one video link
+* one large audio link
+* one large video link
 
 ---
 
